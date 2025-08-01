@@ -1,0 +1,223 @@
+body {
+    margin: 0 auto;
+    max-width: 1320px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    background: repeating-linear-gradient(to right,
+            rgba(255, 0, 0, 0.1),
+            rgba(255, 0, 0, 0.1) 60px,
+            rgba(255, 255, 255, 0.2) 60px,
+            rgba(255, 255, 255, 0.2) 115px);
+
+}
+
+.banner {
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 600px;
+    background-image: url('../images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.banner-content h4 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.banner-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+.text_color {
+    color: red;
+
+}
+
+.discount {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holi {
+    text-align: center;
+    margin: 48px;
+}
+
+.holi h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holi h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* sesh header */
+.main_section {
+    width: 1320px;
+    height: 600px;
+    background-image: url('../images/Vectorrr.png');
+    filter: brightness(55%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* .main_sec_banner {
+
+} */
+
+.main_sec_banner h1 {
+    width: 640px;
+    color: #fff;
+    font-size: 64px;
+}
+
+.main_sec_banner p {
+    color: #fff;
+    width: 700px;
+}
+
+.main_sec_banner h5 {
+    color: #fff;
+}
+
+.address {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+span {
+    color: red;
+}
+
+.circle {
+    width: 463px;
+    height: 463px;
+    border: 15px solid red;
+    border-radius: 50%;
+    position: relative;
+
+}
+.circle img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.main_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    margin-top: 120px;
+}
+.main_1st{
+    width: 390px;
+}
+.main_3rd{
+    width: 275px;
+}
+.holiday_discount{
+    width: 1320px;
+    text-align: center;
+    margin-top: 120px;
+}
+.holiday_discount h4{
+    font-size: 24px;
+}
+.holiday_discount h1{
+    font-size: 72px;
+}
+.holiday_discount p{
+    font-size: 20px;
+    width: 1168px;
+}
+.ajaira {
+    width: 1320px;
+    height: 667px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ajaira img{
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .banner {
+        height: 220px;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .discount {
+        font-size: 2rem;
+    }
+}
