@@ -191,8 +191,13 @@ span {
     
     
 }
-.ajaira img{
-    
+.foot{
+    max-width: 1600px;
+    height: 500px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
 }
 
 
